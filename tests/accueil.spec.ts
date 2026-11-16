@@ -11,7 +11,7 @@ test.describe('Amazon : parcours de base', () => {
   });
 
   test('la page principale se charge @smoke', async ({ page }) => {
-    await expect(page).toHaveTitle(/Amazon/i);
+    await expect(page).toHaveTitle(/Ebay/i);
     await expect(home.searchBox).toBeVisible();
   });
 
